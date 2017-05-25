@@ -12,9 +12,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include device/sony/rhine/PlatformConfig.mk
+include device/sony/rhine-common/PlatformConfig.mk
+include device/sony/rhine-common/PlatformConfig2.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := C6833
 
 BOARD_KERNEL_CMDLINE += androidboot.hardware=togari
-BOARD_KERNEL_CMDLINE += mem=1759M
